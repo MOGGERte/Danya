@@ -8,7 +8,7 @@ export const App = () => {
             <Header />
             <div className={s.container}>
                 <Sidebar />
-                <Dashboard />
+                {/* <Dashboard /> */}
             </div>
         </div>
     );
