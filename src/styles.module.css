@@ -1,7 +1,27 @@
 body {
-    padding-top: 80px;
+  background-color: hsl(240 10% 3.9%);
+  color: hsl(0 0% 98%);
+}
+
+:host,
+html {
+  line-height: 1.5;
+  -webkit-text-size-adjust: 100%;
+  -moz-tab-size: 4;
+  tab-size: 4;
+  font-family:
+    ui-sans-serif,
+    system-ui,
+    sans-serif,
+    Apple Color Emoji,
+    Segoe UI Emoji,
+    Segoe UI Symbol,
+    Noto Color Emoji;
+  font-feature-settings: normal;
+  font-variation-settings: normal;
 }
 
 .container {
-    display: flex;
+  display: flex;
+  height: 100vh;
 }

@@ -1,0 +1,44 @@
+.container {
+  width: 256px;
+  padding: 4px;
+  display: flex;
+  flex-direction: column;
+  border-radius: 12px;
+  justify-content: space-between;
+}
+
+.sidebar {
+  background-color: brown;
+  padding: 4px;
+}
+
+.user {
+  border-radius: 8px;
+  padding: 4px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: gray;
+}
+
+.list {
+  display: flex;
+  flex-direction: column;
+  padding-top: 8px;
+  gap: 4px;
+}
+
+.link {
+  border-radius: 8px;
+  padding: 4px;
+  display: flex;
+  gap: 8px;
+  border: 0;
+  text-align: left;
+  align-items: center;
+  background-color: aquamarine;
+}
+
+.active {
+  background-color: blue;
+}
