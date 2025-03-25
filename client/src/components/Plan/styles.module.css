@@ -1,0 +1,82 @@
+.container {
+  max-width: 512px;
+  overflow: hidden;
+  border-radius: 0.5rem;
+  padding: 24px;
+  background: linear-gradient(343deg, rgba(2, 0, 36, 0) 0%, rgba(249, 115, 22, 0.5) 100%);
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  border-style: solid;
+  border-width: 1px;
+  border-color: hsl(240 3.7% 15.9%);
+}
+
+.accent {
+  color: rgb(249, 115, 22);
+}
+
+.title {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: larger;
+  font-weight: bold;
+}
+
+.details {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.speed {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  align-items: center;
+}
+
+.speedBlock {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.speedTitle {
+  display: flex;
+  align-items: center;
+}
+
+.speedAmount {
+  font-size: larger;
+  font-weight: bold;
+}
+
+progress[value] {
+  --color: white;
+  --background: rgba(255, 255, 255, 0.2);
+  height: 12px;
+  appearance: none;
+  border: none;
+  border-radius: 8px;
+  width: 100%;
+  background: var(--background);
+}
+progress[value]::-webkit-progress-bar {
+  background: var(--background);
+  border-radius: 8px;
+}
+progress[value]::-webkit-progress-value {
+  background: var(--color);
+}
+progress[value]::-moz-progress-bar {
+  background: var(--color);
+  border-radius: 8px;
+}
+
+.usedInfo {
+  font-size: small;
+  text-align: center;
+  padding-top: 4px;
+  color: rgba(255, 255, 255, 0.8);
+}
